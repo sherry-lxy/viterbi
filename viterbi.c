@@ -67,7 +67,6 @@ int main(void) {
 		else {
 			information[i] = 1;
 		}
-
 		// cin >> information[i];
 	}
 	information[N - 2] = 0;
