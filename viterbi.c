@@ -353,6 +353,5 @@ void Viterbi(trellis trellis[N][8], int symbol[N]) {
 			symbol[i] = state / 2;
 			state = trellis[i][state + 4].before;
 		}
-
 	}
 }
